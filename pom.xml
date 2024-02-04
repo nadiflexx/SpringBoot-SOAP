@@ -70,15 +70,15 @@
                 </configuration>
 
                 <!--	Confioguracion para archivos WSDL fisicos-->
-                <!--				<configuration>-->
-                <!--					<schemaLanguage>WSDL</schemaLanguage>-->
-                <!--					<schemaDirectory>${project.basedir}/src/main/resources/wsdl</schemaDirectory>-->
-                <!--					<schemas>-->
-                <!--						<schemaFiles>CalculatorApi.wsdl</schemaFiles>-->
-                <!--						<packageName>com.soap.wsdl</packageName>-->
-                <!--						<outputDirectory>${project.basedir}/src/main/java</outputDirectory>-->
-                <!--					</schemas>-->
-                <!--				</configuration>-->
+<!--                <configuration>-->
+<!--                    <schemaLanguage>WSDL</schemaLanguage>-->
+<!--                    <generatePackage>com.soap.wsdl</generatePackage>-->
+<!--                    <generateDirectory>${project.basedir}/src/main/java</generateDirectory>-->
+<!--                    <schemaDirectory>${project.basedir}/src/main/resources</schemaDirectory>-->
+<!--                    <schemaIncludes>-->
+<!--                        <schemaInclude>*.wsdl</schemaInclude>-->
+<!--                    </schemaIncludes>-->
+<!--                </configuration>-->
             </plugin>
         </plugins>
     </build>
